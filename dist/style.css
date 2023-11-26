@@ -74,6 +74,7 @@
 @media(max-width: 750px) {
     .hero {
         flex-direction: column;
+        position: relative;
     }
 }
 
@@ -87,6 +88,7 @@
     filter: grayscale(1);
     max-width: 100%;
     height: auto;
+    padding: 3rem 0 0 1rem;
 }
 @media(max-width: 750px) {
     .photo-container img {
@@ -101,6 +103,12 @@
     gap: 1.5rem;
     padding: 0 5vw;
     min-width: 30vw;
+}
+@media(max-width: 750px) {
+    .greetings {
+        position: absolute;
+        top: 88%;
+    }
 }
 
 .one {
@@ -164,6 +172,42 @@
 
 
 
+
+.skills {}
+
+.skills .heading {
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.skill-card-container {
+    display: flex;
+    gap: 2vw;
+    padding: 0 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card {
+    width: 12vw;
+    height: 15vw;
+    background-color: var(--secondary-background);
+    display: block;
+    border-radius: var(--border-radius);
+}
+
+.skill-card .top {
+    width: 100%;
+    height: 70%;
+}
+
+.skill-card .bottom {
+    height: 30%;
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
 
 .menu-item {
     color: var(--text-color);
