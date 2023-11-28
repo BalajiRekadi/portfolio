@@ -269,6 +269,31 @@
 
 
 
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.project-cards .card {
+    width: 20rem;
+    Height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-background);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: var(--border-radius);
+}
+
+
+
+
+
+
 .menu-item {
     color: var(--text-color-grey);
     text-decoration: none;

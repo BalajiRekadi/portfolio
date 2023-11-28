@@ -4,9 +4,13 @@ class ProjectCard extends HTMLElement {
     }
   
     connectedCallback() {
+      const src = this.getAttribute('src');
+
       this.innerHTML = `
-            <div class="dot"></div>
-            ${this.innerText}
+        <div class="top">
+          <img src="${src}"/>
+        </div>
+        <div class="bottom">${this.innerText}</div>
       `;
     }
   }
