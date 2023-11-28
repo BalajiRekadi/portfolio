@@ -7,6 +7,7 @@
     "start": "webpack --progress && webpack-dev-server --open",
     "serve": "webpack-dev-server --open",
     "build": "webpack --progress --watch",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint",
     "test": "test"
   },
@@ -17,6 +18,7 @@
     "eslint": "^8.54.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.0",
+    "gh-pages": "^6.1.0",
     "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
