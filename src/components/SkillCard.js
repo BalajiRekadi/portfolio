@@ -1,3 +1,4 @@
+import './skillcard.css';
 class SkillCard extends HTMLElement {
     constructor(name, src, size) {
       super();
@@ -13,7 +14,7 @@ class SkillCard extends HTMLElement {
 
       this.innerHTML = `
         <div class="top">
-            <img src="${src}" width="${size}%"/>
+            <img class="skill-image" width="${size}%"/>
         </div>
         <div class="bottom">${name}</div>
       `;

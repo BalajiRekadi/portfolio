@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --progress && webpack-dev-server --open",
     "serve": "webpack-dev-server --open",
-    "build": "webpack --progress --watch",
+    "build": "webpack --progress",
+    "watch": "webpack --progress --watch",
     "deploy": "gh-pages -d dist",
     "lint": "eslint",
     "test": "test"
