@@ -1,10 +1,7 @@
 import './skillcard.css';
 class SkillCard extends HTMLElement {
-    constructor(name, src, size) {
+    constructor() {
       super();
-      this.name = name;
-      this.src = src;
-      this.size = size;
     }
   
     connectedCallback() {
