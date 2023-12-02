@@ -65,6 +65,11 @@
     }
 }
 
+.header nav a {
+    color: var(--text-color-grey);
+    text-decoration: none;
+}
+
 
 
 .hero {
@@ -102,7 +107,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0 5vw;
     min-width: 30vw;
 }
 @media(max-width: 750px) {
@@ -176,6 +180,8 @@
         100% { width: 75%; }
     }
 }
+
+
 
 
 
@@ -284,12 +290,3 @@
     border: var(--border-radius);
 }
 
-
-
-
-
-
-.menu-item {
-    color: var(--text-color-grey);
-    text-decoration: none;
-}
