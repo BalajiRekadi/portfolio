@@ -192,9 +192,15 @@
 
 
 .heading {
-    padding: 5rem;
+    margin: 7rem auto;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-color-grey);
+    border-left: 2px solid var(--accent);
+    padding: 0 1rem;
+    border-right: 2px solid var(--accent);
     text-align: center;
-    font-size: 1.5rem;
+    width: fit-content;
 }
 @media(max-width: 750px) {
     .heading {
@@ -250,12 +256,15 @@
 }
 
 .timeline p {
-    padding: 0.5rem 2rem;
     margin: 1rem;
     border-left: 1px solid var(--accent);
     color: var(--text-color-grey);
     height: auto;
     display: block;
+    background: var(--secondary-background);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    line-height: 24px;
 }
 
 .timeline .dot {
