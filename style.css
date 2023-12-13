@@ -81,6 +81,7 @@
 @media (max-width: 750px) {
   .header {
     padding: 1rem 2rem;
+    background-color: var(--secondary-background);
   }
   .header nav {
     padding: 0;
@@ -97,7 +98,6 @@
 @media (max-width: 750px) {
   .hero {
     flex-direction: column;
-    height: 60vh;
     position: relative;
     border-radius: 0;
   }
@@ -117,7 +117,8 @@
 }
 @media (max-width: 750px) {
   .photo-container {
-    width: 100vw;
+    width: 95vw;
+    height: auto;
   }
   .photo-container .photo {
     padding: 0;
@@ -133,9 +134,7 @@
 }
 @media (max-width: 750px) {
   .greetings {
-    position: absolute;
-    top: 88%;
-    padding-left: 1rem;
+    padding: 2rem 0 2rem 1rem;
   }
 }
 
@@ -236,12 +235,6 @@
   .heading {
     font-size: 1rem;
     margin: 4rem auto;
-  }
-}
-
-@media (max-width: 750px) {
-  .skills {
-    margin-top: 18rem;
   }
 }
 
